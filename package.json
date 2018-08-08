@@ -1,0 +1,20 @@
+{
+  "name": "reason-tetris",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "./lib/bs/bytecode/indexhot.byte",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "bsansouci/bsb-native#3.2.0"
+  },
+  "dependencies": {
+    "Reprocessing": "schmavery/reprocessing"
+  }
+}
